@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Starter</title>
+    <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .name{
+                color: #091625;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                font-weight: 700;
+            }
+
+            p {
+                font-weight: normal;
+                color: #091625;
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .intro{
+                border-bottom: 2px solid;
+                margin-bottom: 15px;
+                font-weight: normal;
+                font-size: 17px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #FF007F
+                
+            }
+
+
+            .big_bad_container {
+                display: flex;
+                gap: 10px;
+                vertical-align: top;
+                margin: 10px 0px 20px 10px;
+                min-width: 600px;
+                flex-wrap: wrap;
+
+
+            }
+
+            div.big_container {
+                border: 3px solid;
+                border-color: #FF007F;
+                padding: 10px;
+                background-color: #31AFD4;
+
+            }
+        
+            .name{
+                padding-bottom: 10px;
+            }
+            .intro{
+                padding-bottom: 5px;
+            }
+
+            @media (min-width: 601px) and (max-width: 1199px) { 
+
+
+                .big_bad_container{
+                    max-width: 600px;
+                    padding: 20px; 
+                }  
+
+                .big_bad_container  {
+                    float: left;
+                    margin-right: 10px;
+                } 
+            }
+    </style>
+</head>
+<body>
+    <div class="big_bad_container">
+        <div class="big_container">
+            <h2 class="name"> Dua Lipa </h2>
+            <h4 class="intro"> Check out the stats:</h4>
+            <p class="age"> She is 29 years old </p>
+            <p class="hometown"> Born in London, England</p>
+            <p class="albums_released"> She's released 3 albums </p>
+            <p class="number_of_billboard_hot_100_songs" > She has 14 hot 100 songs</p>
+        </div>        
+    
+
+
+    
+        <div class="big_container"> 
+            <h2 class="name"> Kacey Musgraves </h2>
+            <h4 class="intro"> Check out the stats:</h4>
+            <p class="age"> He is 36 years old </p>
+            <p class="hometown"> Born in Golden, Texas</p>
+            <p class="albums_released"> He's released 5 albums </p>
+            <p class="number_of_billboard_hot_100_songs" > He has 4 hot 100 songs</p>
+        </div>
+    
+    
+        <div class="big_container">
+            <h2 class="name"> Kendrick Lamar </h2>
+            <h4 class ="intro"> Check out the stats:</h4>
+            <p class="age"> He is 37 years old </p>
+            <p class="hometown"> Born in Compton, California</p>
+            <p class="albums_released"> He's released 5 albums </p>
+            <p class="number_of_billboard_hot_100_songs" > She has 54 hot 100 songs</p>
+        </div>
+    </div>
+
+</body>
